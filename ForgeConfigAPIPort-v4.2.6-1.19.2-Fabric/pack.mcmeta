@@ -1,6 +1,0 @@
-{
-    "pack": {
-        "description": "Yes, you're reading that correctly. This is the whole Forge Config API ported to Fabric.",
-        "pack_format": 9
-    }
-}
