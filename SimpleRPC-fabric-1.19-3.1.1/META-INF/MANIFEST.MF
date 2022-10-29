@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Specification-Title: SimpleRPC
+Specification-Vendor: HypherionSA
+Specification-Version: 3.1.1
+Implementation-Title: Fabric
+Implementation-Version: 3.1.1
+Implementation-Vendor: HypherionSA
+Implementation-Timestamp: 2022-07-25T17:27:06+0000
+Timestampe: 1658770026059
+Built-On-Java: 17.0.2+8 (Eclipse Adoptium)
+Build-On-Minecraft: 1.19
+Fabric-Gradle-Version: 7.3
+Fabric-Loom-Version: 0.12.54
+Fabric-Mixin-Compile-Extensions-Version: 0.5.0
+Fabric-Minecraft-Version: 1.19
+Fabric-Tiny-Remapper-Version: 0.8.2
+Fabric-Loader-Version: 7.0.72
+Fabric-Mixin-Version: 0.11.4+mixin.0.8.5
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

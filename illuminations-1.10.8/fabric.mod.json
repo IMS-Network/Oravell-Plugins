@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "illuminations",
+  "version": "1.10.8",
+  "name": "Illuminations",
+  "description": "Fireflies, other illuminations to make your world more enjoyable in darkness and player cosmetics.",
+  "authors": [
+    "doctor4t"
+  ],
+  "contact": {
+    "homepage": "https://doctor4t.uuid.gg/",
+    "sources": "https://github.com/Ladysnake/Illuminations",
+    "issues": "https://github.com/Ladysnake/Illuminations/issues"
+  },
+  "license": "ARR",
+  "icon": "assets/illuminations/illuminations.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ladysnake.illuminations.client.Illuminations"
+    ],
+    "modmenu": [
+      "ladysnake.illuminations.client.IlluminationsModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "illuminations.mixins.json"
+  ],
+  "accessWidener": "illuminations.accesswidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.4.0",
+    "fabric": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cloth-config-fabric-5.0.34.jar"
+    }
+  ]
+}

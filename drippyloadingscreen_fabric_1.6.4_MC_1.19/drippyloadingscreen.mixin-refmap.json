@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "de/keksuccino/drippyloadingscreen/mixin/client/MixinSoundEngine": {
+      "reload": "Lnet/minecraft/class_1140;method_4837()V"
+    },
+    "de/keksuccino/drippyloadingscreen/mixin/client/IMixinLoadingOverlay": {
+      "currentProgress": "field_17770:F",
+      "reload": "field_17767:Lnet/minecraft/class_4011;",
+      "fadeIn": "field_18219:Z",
+      "fadeInStart": "field_18220:J",
+      "onFinish": "field_18218:Ljava/util/function/Consumer;",
+      "fadeOutStart": "field_17771:J"
+    },
+    "de/keksuccino/drippyloadingscreen/mixin/client/MixinMinecraftClient": {
+      "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V"
+    },
+    "de/keksuccino/drippyloadingscreen/mixin/client/MixinLoadingOverlay": {
+      "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "de/keksuccino/drippyloadingscreen/mixin/client/MixinSoundEngine": {
+        "reload": "Lnet/minecraft/class_1140;method_4837()V"
+      },
+      "de/keksuccino/drippyloadingscreen/mixin/client/IMixinLoadingOverlay": {
+        "currentProgress": "field_17770:F",
+        "reload": "field_17767:Lnet/minecraft/class_4011;",
+        "fadeIn": "field_18219:Z",
+        "fadeInStart": "field_18220:J",
+        "onFinish": "field_18218:Ljava/util/function/Consumer;",
+        "fadeOutStart": "field_17771:J"
+      },
+      "de/keksuccino/drippyloadingscreen/mixin/client/MixinMinecraftClient": {
+        "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V"
+      },
+      "de/keksuccino/drippyloadingscreen/mixin/client/MixinLoadingOverlay": {
+        "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      }
+    }
+  }
+}

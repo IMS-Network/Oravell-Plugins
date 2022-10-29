@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium-extra",
+  "version": "0.4.11+mc1.19.2-build.68",
+  "name": "Sodium Extra",
+  "description": "Features that shouldn\u0027t be in Sodium.",
+  "authors": [
+    "FlashyReese"
+  ],
+  "contributors": [
+    "AMereBagatelle",
+    "EatMyVenom",
+    "Madis0",
+    "DragonEggBedrockBreaking",
+    "HarvelsX"
+  ],
+  "contact": {
+    "sources": "https://github.com/FlashyReese/sodium-extra-fabric",
+    "issues": "https://github.com/FlashyReese/sodium-extra-fabric/issues"
+  },
+  "license": "LGPLv3",
+  "icon": "assets/sodium-extra/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.flashyreese.mods.sodiumextra.client.SodiumExtraClientMod"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "parent": {
+        "id": "sodium"
+      }
+    }
+  },
+  "accessWidener": "sodium-extra.accesswidener",
+  "mixins": [
+    "sodium-extra.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14",
+    "fabric": "*",
+    "sodium": "\u003e\u003d0.4.4"
+  },
+  "breaks": {
+    "reeses-sodium-options": "\u003c1.4.2"
+  },
+  "recommends": {
+    "reeses-sodium-options": "\u003e\u003d1.4.2"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/mixin-config-1.0.0+1.17.jar"
+    }
+  ]
+}

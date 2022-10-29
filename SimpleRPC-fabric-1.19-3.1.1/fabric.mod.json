@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "simple-rpc",
+  "version": "3.1.1",
+  "name": "Simple RPC",
+  "description": "A simple Discord Rich Presence plugin for Modpacks",
+  "authors": [
+    "HypherionMC"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/simple-discord-rpc",
+    "issues": "https://github.com/hypherionmc/simple-rpc-public/issues",
+    "discord": "https://discord.gg/PdVnXf9"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/simple-rpc/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.hypherionmc.simplerpc.client.SRPCFabricClient"
+    ],
+    "server": [
+      "me.hypherionmc.simplerpc.SRPCFabricServer"
+    ]
+  },
+  "mixins": [
+    "simplerpc.mixins.json",
+    "simplerpc.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "java": "\u003e\u003d17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/simple-rpc-common-4.0.3.jar"
+    }
+  ]
+}

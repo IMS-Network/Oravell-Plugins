@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "puzzleslib",
+  "version": "4.3.11",
+  "name": "Puzzles Lib",
+  "description": "Why\u0027s it called Puzzles you ask? That\u0027s the puzzle!",
+  "authors": [
+    "Fuzs"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fuzss/puzzleslib",
+    "issues": "https://github.com/Fuzss/puzzleslib/issues",
+    "sources": "https://github.com/Fuzss/puzzleslib"
+  },
+  "license": "MPL-2",
+  "icon": "mod_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fuzs.puzzleslib.impl.PuzzlesLibFabric"
+    ],
+    "client": [],
+    "cardinal-components": [
+      "fuzs.puzzleslib.capability.FabricCapabilityController"
+    ]
+  },
+  "mixins": [
+    "puzzleslib.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.9",
+    "fabric-api": "\u003e\u003d0.60.0",
+    "forgeconfigapiport": "\u003e\u003d4.0.0",
+    "minecraft": "\u003e\u003d1.19.2 \u003c1.20",
+    "java": "\u003e\u003d17",
+    "cardinal-components-base": "*",
+    "cardinal-components-entity": "*",
+    "cardinal-components-block": "*",
+    "cardinal-components-chunk": "*",
+    "cardinal-components-world": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-block-5.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-chunk-5.0.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-world-5.0.1.jar"
+    }
+  ]
+}

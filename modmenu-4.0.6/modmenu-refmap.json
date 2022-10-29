@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/terraformersmc/modmenu/mixin/MixinTitleScreen": {
+      "Lnet/minecraft/client/realms/gui/screen/RealmsNotificationsScreen;init(Lnet/minecraft/client/MinecraftClient;II)V": "Lnet/minecraft/class_4399;method_25423(Lnet/minecraft/class_310;II)V",
+      "init": "Lnet/minecraft/class_442;method_25426()V",
+      "Lnet/minecraft/client/gui/screen/TitleScreen;drawStringWithShadow(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/font/TextRenderer;Ljava/lang/String;III)V": "Lnet/minecraft/class_442;method_25303(Lnet/minecraft/class_4587;Lnet/minecraft/class_327;Ljava/lang/String;III)V",
+      "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/terraformersmc/modmenu/mixin/MixinTitleScreen": {
+        "Lnet/minecraft/client/realms/gui/screen/RealmsNotificationsScreen;init(Lnet/minecraft/client/MinecraftClient;II)V": "Lnet/minecraft/class_4399;method_25423(Lnet/minecraft/class_310;II)V",
+        "init": "Lnet/minecraft/class_442;method_25426()V",
+        "Lnet/minecraft/client/gui/screen/TitleScreen;drawStringWithShadow(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/font/TextRenderer;Ljava/lang/String;III)V": "Lnet/minecraft/class_442;method_25303(Lnet/minecraft/class_4587;Lnet/minecraft/class_327;Ljava/lang/String;III)V",
+        "render": "Lnet/minecraft/class_442;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      }
+    }
+  }
+}

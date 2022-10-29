@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lazydfu",
+  "version": "0.1.3",
+  "name": "LazyDFU",
+  "description": "Makes DataFixerUpper more lazy",
+  "authors": [
+    "tuxed"
+  ],
+  "contact": {
+    "homepage": "https://github.com/astei/lazydfu",
+    "sources": "https://github.com/astei/lazydfu",
+    "issues": "https://github.com/astei/lazydfu/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/lazydfu/icon.png",
+  "environment": "*",
+  "mixins": [
+    "lazydfu.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.0",
+    "minecraft": ">=1.19"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "fuzs/puzzleslib/mixin/client/ItemRendererMixin": {
+      "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_918;method_4022(Lnet/minecraft/class_327;Lnet/minecraft/class_1799;IILjava/lang/String;)V"
+    },
+    "fuzs/puzzleslib/mixin/client/accessor/AbstractContainerScreenAccessor": {
+      "imageWidth": "field_2792:I",
+      "leftPos": "field_2776:I",
+      "topPos": "field_2800:I",
+      "imageHeight": "field_2779:I"
+    },
+    "fuzs/puzzleslib/mixin/client/accessor/MinecraftAccessor": {
+      "searchRegistry": "field_1733:Lnet/minecraft/class_1124;"
+    },
+    "fuzs/puzzleslib/mixin/client/ModelManagerMixin": {
+      "Lnet/minecraft/client/resources/model/ModelManager;missingModel:Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_1092;field_5407:Lnet/minecraft/class_1087;",
+      "apply": "Lnet/minecraft/class_1092;method_18179(Lnet/minecraft/class_1088;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fuzs/puzzleslib/mixin/client/ItemRendererMixin": {
+        "renderGuiItemDecorations(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;IILjava/lang/String;)V": "Lnet/minecraft/class_918;method_4022(Lnet/minecraft/class_327;Lnet/minecraft/class_1799;IILjava/lang/String;)V"
+      },
+      "fuzs/puzzleslib/mixin/client/accessor/AbstractContainerScreenAccessor": {
+        "imageWidth": "field_2792:I",
+        "leftPos": "field_2776:I",
+        "topPos": "field_2800:I",
+        "imageHeight": "field_2779:I"
+      },
+      "fuzs/puzzleslib/mixin/client/accessor/MinecraftAccessor": {
+        "searchRegistry": "field_1733:Lnet/minecraft/class_1124;"
+      },
+      "fuzs/puzzleslib/mixin/client/ModelManagerMixin": {
+        "Lnet/minecraft/client/resources/model/ModelManager;missingModel:Lnet/minecraft/client/resources/model/BakedModel;": "Lnet/minecraft/class_1092;field_5407:Lnet/minecraft/class_1087;",
+        "apply": "Lnet/minecraft/class_1092;method_18179(Lnet/minecraft/class_1088;Lnet/minecraft/class_3300;Lnet/minecraft/class_3695;)V"
+      }
+    }
+  }
+}

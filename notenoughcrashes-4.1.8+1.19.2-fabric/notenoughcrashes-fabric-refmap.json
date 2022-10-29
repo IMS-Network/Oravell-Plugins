@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "fudge/notenoughcrashes/fabric/mixins/DeobfCrashReportMixin": {
+      "Lnet/minecraft/util/SystemDetails;writeTo(Ljava/lang/StringBuilder;)V": "Lnet/minecraft/class_6396;method_37124(Ljava/lang/StringBuilder;)V",
+      "addStackTrace": "Lnet/minecraft/class_128;method_555(Ljava/lang/StringBuilder;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fudge/notenoughcrashes/fabric/mixins/DeobfCrashReportMixin": {
+        "Lnet/minecraft/util/SystemDetails;writeTo(Ljava/lang/StringBuilder;)V": "Lnet/minecraft/class_6396;method_37124(Ljava/lang/StringBuilder;)V",
+        "addStackTrace": "Lnet/minecraft/class_128;method_555(Ljava/lang/StringBuilder;)V"
+      }
+    }
+  }
+}

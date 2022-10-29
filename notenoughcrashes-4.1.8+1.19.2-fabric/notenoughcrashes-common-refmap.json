@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "fudge/notenoughcrashes/mixins/MixinEntity": {
+      "populateCrashReport": "Lnet/minecraft/class_1297;method_5819(Lnet/minecraft/class_129;)V"
+    },
+    "fudge/notenoughcrashes/mixins/client/MixinMinecraftServerClientOnly": {
+      "Lnet/minecraft/util/crash/CrashReport;writeToFile(Ljava/io/File;)Z": "Lnet/minecraft/class_128;method_569(Ljava/io/File;)Z",
+      "runServer()V": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+    },
+    "fudge/notenoughcrashes/mixins/MixinTileEntity": {
+      "populateCrashReport": "Lnet/minecraft/class_2586;method_11003(Lnet/minecraft/class_129;)V"
+    },
+    "fudge/notenoughcrashes/mixins/MixinCrashReport": {
+      "Lnet/minecraft/util/SystemDetails;writeTo(Ljava/lang/StringBuilder;)V": "Lnet/minecraft/class_6396;method_37124(Ljava/lang/StringBuilder;)V",
+      "addStackTrace": "Lnet/minecraft/class_128;method_555(Ljava/lang/StringBuilder;)V"
+    },
+    "fudge/notenoughcrashes/mixins/client/MixinMinecraftClient": {
+      "Lnet/minecraft/client/MinecraftClient;crashReportSupplier:Ljava/util/function/Supplier;": "Lnet/minecraft/class_310;field_1747:Ljava/util/function/Supplier;",
+      "run()V": "Lnet/minecraft/class_310;method_1514()V",
+      "cleanUpAfterCrash()V": "Lnet/minecraft/class_310;method_1519()V",
+      "Lnet/minecraft/client/MinecraftClient;printCrashReport(Lnet/minecraft/util/crash/CrashReport;)V": "Lnet/minecraft/class_310;method_1565(Lnet/minecraft/class_128;)V",
+      "doLoadLevel(Ljava/lang/String;Lnet/minecraft/util/registry/DynamicRegistryManager$Impl;Ljava/util/function/Function;Lcom/mojang/datafixers/util/Function4;ZLnet/minecraft/client/MinecraftClient$WorldLoadAction;Z)V": "Lnet/minecraft/class_310;doLoadLevel(Ljava/lang/String;Lnet/minecraft/util/registry/DynamicRegistryManager$Impl;Ljava/util/function/Function;Lcom/mojang/datafixers/util/Function4;ZLnet/minecraft/client/MinecraftClient$WorldLoadAction;Z)V",
+      "startIntegratedServer(Ljava/lang/String;Lnet/minecraft/world/level/storage/LevelStorage$Session;Lnet/minecraft/resource/ResourcePackManager;Lnet/minecraft/server/SaveLoader;)V": "Lnet/minecraft/class_310;method_29610(Ljava/lang/String;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_3283;Lnet/minecraft/class_6904;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fudge/notenoughcrashes/mixins/MixinEntity": {
+        "populateCrashReport": "Lnet/minecraft/class_1297;method_5819(Lnet/minecraft/class_129;)V"
+      },
+      "fudge/notenoughcrashes/mixins/client/MixinMinecraftServerClientOnly": {
+        "Lnet/minecraft/util/crash/CrashReport;writeToFile(Ljava/io/File;)Z": "Lnet/minecraft/class_128;method_569(Ljava/io/File;)Z",
+        "runServer()V": "Lnet/minecraft/server/MinecraftServer;method_29741()V"
+      },
+      "fudge/notenoughcrashes/mixins/MixinTileEntity": {
+        "populateCrashReport": "Lnet/minecraft/class_2586;method_11003(Lnet/minecraft/class_129;)V"
+      },
+      "fudge/notenoughcrashes/mixins/MixinCrashReport": {
+        "Lnet/minecraft/util/SystemDetails;writeTo(Ljava/lang/StringBuilder;)V": "Lnet/minecraft/class_6396;method_37124(Ljava/lang/StringBuilder;)V",
+        "addStackTrace": "Lnet/minecraft/class_128;method_555(Ljava/lang/StringBuilder;)V"
+      },
+      "fudge/notenoughcrashes/mixins/client/MixinMinecraftClient": {
+        "Lnet/minecraft/client/MinecraftClient;crashReportSupplier:Ljava/util/function/Supplier;": "Lnet/minecraft/class_310;field_1747:Ljava/util/function/Supplier;",
+        "run()V": "Lnet/minecraft/class_310;method_1514()V",
+        "cleanUpAfterCrash()V": "Lnet/minecraft/class_310;method_1519()V",
+        "Lnet/minecraft/client/MinecraftClient;printCrashReport(Lnet/minecraft/util/crash/CrashReport;)V": "Lnet/minecraft/class_310;method_1565(Lnet/minecraft/class_128;)V",
+        "doLoadLevel(Ljava/lang/String;Lnet/minecraft/util/registry/DynamicRegistryManager$Impl;Ljava/util/function/Function;Lcom/mojang/datafixers/util/Function4;ZLnet/minecraft/client/MinecraftClient$WorldLoadAction;Z)V": "Lnet/minecraft/class_310;doLoadLevel(Ljava/lang/String;Lnet/minecraft/util/registry/DynamicRegistryManager$Impl;Ljava/util/function/Function;Lcom/mojang/datafixers/util/Function4;ZLnet/minecraft/client/MinecraftClient$WorldLoadAction;Z)V",
+        "startIntegratedServer(Ljava/lang/String;Lnet/minecraft/world/level/storage/LevelStorage$Session;Lnet/minecraft/resource/ResourcePackManager;Lnet/minecraft/server/SaveLoader;)V": "Lnet/minecraft/class_310;method_29610(Ljava/lang/String;Lnet/minecraft/class_32$class_5143;Lnet/minecraft/class_3283;Lnet/minecraft/class_6904;)V"
+      }
+    }
+  }
+}

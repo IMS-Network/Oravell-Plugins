@@ -1,0 +1,130 @@
+{
+  "mappings": {
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinDynamicTexture": {
+      "pixels": "field_5200:Lnet/minecraft/class_1011;"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinMouseHandler": {
+      "onPress": "Lnet/minecraft/class_312;method_1601(JIII)V",
+      "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V",
+      "Lnet/minecraft/client/gui/screens/Screen;afterMouseAction()V": "Lnet/minecraft/class_437;method_37069()V"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinClientPacketListener": {
+      "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+      "Lnet/minecraft/client/player/LocalPlayer;resetPos()V": "Lnet/minecraft/class_746;method_33689()V"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinClientLanguage": {
+      "storage": "field_5330:Ljava/util/Map;"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinScreenEvents": {
+      "afterRender": "Lnet/fabricmc/fabric/api/client/screen/v1/ScreenEvents;afterRender(Lnet/minecraft/class_437;)Lnet/fabricmc/fabric/api/event/Event;"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinMouseHandler": {
+      "activeButton": "field_1780:I"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinMinecraft": {
+      "Lnet/minecraft/client/gui/screens/Screen;wrapScreenError(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V",
+      "tick": "Lnet/minecraft/class_310;method_1574()V",
+      "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V",
+      "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinScreen": {
+      "renderBackground(Lcom/mojang/blaze3d/vertex/PoseStack;I)V": "Lnet/minecraft/class_437;method_25433(Lnet/minecraft/class_4587;I)V",
+      "renderDirtBackground": "Lnet/minecraft/class_437;method_25434(I)V",
+      "rebuildWidgets": "Lnet/minecraft/class_437;method_41843()V",
+      "Lnet/minecraft/client/gui/screens/Screen;init()V": "Lnet/minecraft/class_437;method_25426()V",
+      "wrapScreenError": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinEditBox": {
+      "highlightPos": "field_2101:I",
+      "isEditable": "field_2094:Z",
+      "onValueChange": "method_1874(Ljava/lang/String;)V",
+      "maxLength": "field_2108:I"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinKeyboardHandler": {
+      "sendRepeatsToGui": "field_1683:Z"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinLocalPlayer": {
+      "getPermissionLevel": "method_5691()I"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinKeyboardHandler": {
+      "Lnet/minecraft/client/gui/screens/Screen;wrapScreenError(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V",
+      "charTyped": "Lnet/minecraft/class_309;method_1457(JII)V",
+      "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinClientPacketListener": {
+      "commands": "field_3696:Lcom/mojang/brigadier/CommandDispatcher;"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/IMixinAbstractWidget": {
+      "height": "field_22759:I"
+    },
+    "de/keksuccino/konkrete/mixin/mixins/client/MixinGameRenderer": {
+      "Lnet/minecraft/client/gui/screens/Screen;render(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V": "Lnet/minecraft/class_437;method_25394(Lnet/minecraft/class_4587;IIF)V",
+      "render": "Lnet/minecraft/class_757;method_3192(FJZ)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinDynamicTexture": {
+        "pixels": "field_5200:Lnet/minecraft/class_1011;"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinMouseHandler": {
+        "onPress": "Lnet/minecraft/class_312;method_1601(JIII)V",
+        "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V",
+        "Lnet/minecraft/client/gui/screens/Screen;afterMouseAction()V": "Lnet/minecraft/class_437;method_37069()V"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinClientPacketListener": {
+        "handleLogin": "Lnet/minecraft/class_634;method_11120(Lnet/minecraft/class_2678;)V",
+        "Lnet/minecraft/client/player/LocalPlayer;resetPos()V": "Lnet/minecraft/class_746;method_33689()V"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinClientLanguage": {
+        "storage": "field_5330:Ljava/util/Map;"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinScreenEvents": {
+        "afterRender": "Lnet/fabricmc/fabric/api/client/screen/v1/ScreenEvents;afterRender(Lnet/minecraft/class_437;)Lnet/fabricmc/fabric/api/event/Event;"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinMouseHandler": {
+        "activeButton": "field_1780:I"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinMinecraft": {
+        "Lnet/minecraft/client/gui/screens/Screen;wrapScreenError(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V",
+        "tick": "Lnet/minecraft/class_310;method_1574()V",
+        "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V",
+        "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinScreen": {
+        "renderBackground(Lcom/mojang/blaze3d/vertex/PoseStack;I)V": "Lnet/minecraft/class_437;method_25433(Lnet/minecraft/class_4587;I)V",
+        "renderDirtBackground": "Lnet/minecraft/class_437;method_25434(I)V",
+        "rebuildWidgets": "Lnet/minecraft/class_437;method_41843()V",
+        "Lnet/minecraft/client/gui/screens/Screen;init()V": "Lnet/minecraft/class_437;method_25426()V",
+        "wrapScreenError": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinEditBox": {
+        "highlightPos": "field_2101:I",
+        "isEditable": "field_2094:Z",
+        "onValueChange": "method_1874(Ljava/lang/String;)V",
+        "maxLength": "field_2108:I"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinKeyboardHandler": {
+        "sendRepeatsToGui": "field_1683:Z"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinLocalPlayer": {
+        "getPermissionLevel": "method_5691()I"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinKeyboardHandler": {
+        "Lnet/minecraft/client/gui/screens/Screen;wrapScreenError(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V": "Lnet/minecraft/class_437;method_25412(Ljava/lang/Runnable;Ljava/lang/String;Ljava/lang/String;)V",
+        "charTyped": "Lnet/minecraft/class_309;method_1457(JII)V",
+        "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinClientPacketListener": {
+        "commands": "field_3696:Lcom/mojang/brigadier/CommandDispatcher;"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/IMixinAbstractWidget": {
+        "height": "field_22759:I"
+      },
+      "de/keksuccino/konkrete/mixin/mixins/client/MixinGameRenderer": {
+        "Lnet/minecraft/client/gui/screens/Screen;render(Lcom/mojang/blaze3d/vertex/PoseStack;IIF)V": "Lnet/minecraft/class_437;method_25394(Lnet/minecraft/class_4587;IIF)V",
+        "render": "Lnet/minecraft/class_757;method_3192(FJZ)V"
+      }
+    }
+  }
+}

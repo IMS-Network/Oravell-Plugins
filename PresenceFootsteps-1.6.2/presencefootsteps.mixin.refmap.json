@@ -1,0 +1,38 @@
+{
+  "mappings": {
+    "eu/ha3/presencefootsteps/mixins/MClientPlayNetworkHandler": {
+      "onPlaySound(Lnet/minecraft/network/packet/s2c/play/PlaySoundS2CPacket;)V": "Lnet/minecraft/class_634;method_11146(Lnet/minecraft/class_2767;)V"
+    },
+    "eu/ha3/presencefootsteps/mixins/MDebugHud": {
+      "getRightText": "Lnet/minecraft/class_340;method_1839()Ljava/util/List;"
+    },
+    "eu/ha3/presencefootsteps/mixins/ILivingEntity": {
+      "jumping": "field_6282:Z"
+    },
+    "eu/ha3/presencefootsteps/mixins/MSoundSystem": {
+      "getAdjustedVolume": "Lnet/minecraft/class_1140;method_4853(Lnet/minecraft/class_1113;)F"
+    },
+    "eu/ha3/presencefootsteps/mixins/IEntity": {
+      "nextStepSoundDistance": "field_6003:F"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "eu/ha3/presencefootsteps/mixins/MClientPlayNetworkHandler": {
+        "onPlaySound(Lnet/minecraft/network/packet/s2c/play/PlaySoundS2CPacket;)V": "Lnet/minecraft/class_634;method_11146(Lnet/minecraft/class_2767;)V"
+      },
+      "eu/ha3/presencefootsteps/mixins/MDebugHud": {
+        "getRightText": "Lnet/minecraft/class_340;method_1839()Ljava/util/List;"
+      },
+      "eu/ha3/presencefootsteps/mixins/ILivingEntity": {
+        "jumping": "field_6282:Z"
+      },
+      "eu/ha3/presencefootsteps/mixins/MSoundSystem": {
+        "getAdjustedVolume": "Lnet/minecraft/class_1140;method_4853(Lnet/minecraft/class_1113;)F"
+      },
+      "eu/ha3/presencefootsteps/mixins/IEntity": {
+        "nextStepSoundDistance": "field_6003:F"
+      }
+    }
+  }
+}

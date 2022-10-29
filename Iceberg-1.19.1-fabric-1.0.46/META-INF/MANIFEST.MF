@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Specification-Title: Iceberg
+Specification-Vendor: anthonyhilyard
+Specification-Version: 1.0.46
+Implementation-Title: Iceberg
+Implementation-Version: 1.0.46
+Implementation-Vendor: anthonyhilyard
+Implementation-Timestamp: 2022-08-06T15:10:23-0700
+Fabric-Gradle-Version: 7.3
+Fabric-Loom-Version: 0.12.56
+Fabric-Mixin-Compile-Extensions-Version: 0.5.0
+Fabric-Minecraft-Version: 1.19.1
+Fabric-Tiny-Remapper-Version: 0.8.2
+Fabric-Loader-Version: 0.14.8
+Fabric-Mixin-Version: 0.11.4+mixin.0.8.5
+Fabric-Mixin-Group: net.fabricmc
+Fabric-Mapping-Namespace: intermediary
+

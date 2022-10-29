@@ -1,0 +1,68 @@
+{
+  "mappings": {
+    "su/plo/voice/mixin/MixinMinecraft": {
+      "clearLevel(Lnet/minecraft/client/gui/screens/Screen;)V": "Lnet/minecraft/class_310;method_18096(Lnet/minecraft/class_437;)V"
+    },
+    "su/plo/voice/mixin/MixinSoundEngine": {
+      "cleanup": "Lnet/minecraft/class_4225;method_19664()V"
+    },
+    "su/plo/voice/mixin/MixinSkinManager": {
+      "registerSkins": "Lnet/minecraft/class_1071;method_4652(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/class_1071$class_1072;Z)V"
+    },
+    "su/plo/voice/mixin/MixinKeyboardHandler": {
+      "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+    },
+    "su/plo/voice/mixin/MixinPlayerEntry": {
+      "children": "Lnet/minecraft/class_5519;method_25396()Ljava/util/List;",
+      "render": "Lnet/minecraft/class_5519;method_25343(Lnet/minecraft/class_4587;IIIIIIIZF)V",
+      "getStatusComponent": "Lnet/minecraft/class_5519;method_31390()Lnet/minecraft/class_2561;"
+    },
+    "su/plo/voice/mixin/MixinMouseHandler": {
+      "onPress": "Lnet/minecraft/class_312;method_1601(JIII)V",
+      "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+    },
+    "su/plo/voice/mixin/MixinLevelRenderer": {
+      "Lnet/minecraft/client/renderer/RenderStateShard;WEATHER_TARGET:Lnet/minecraft/client/renderer/RenderStateShard$OutputStateShard;": "Lnet/minecraft/class_4668;field_25282:Lnet/minecraft/class_4668$class_4678;",
+      "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V",
+      "Lnet/minecraft/client/renderer/PostChain;process(F)V": "Lnet/minecraft/class_279;method_1258(F)V",
+      "Lnet/minecraft/client/renderer/LevelRenderer;renderSnowAndRain(Lnet/minecraft/client/renderer/LightTexture;FDDD)V": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V"
+    },
+    "su/plo/voice/mixin/MixinPlayerRenderer": {
+      "render": "Lnet/minecraft/class_1007;method_4215(Lnet/minecraft/class_742;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "su/plo/voice/mixin/MixinMinecraft": {
+        "clearLevel(Lnet/minecraft/client/gui/screens/Screen;)V": "Lnet/minecraft/class_310;method_18096(Lnet/minecraft/class_437;)V"
+      },
+      "su/plo/voice/mixin/MixinSoundEngine": {
+        "cleanup": "Lnet/minecraft/class_4225;method_19664()V"
+      },
+      "su/plo/voice/mixin/MixinSkinManager": {
+        "registerSkins": "Lnet/minecraft/class_1071;method_4652(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/class_1071$class_1072;Z)V"
+      },
+      "su/plo/voice/mixin/MixinKeyboardHandler": {
+        "keyPress": "Lnet/minecraft/class_309;method_1466(JIIII)V"
+      },
+      "su/plo/voice/mixin/MixinPlayerEntry": {
+        "children": "Lnet/minecraft/class_5519;method_25396()Ljava/util/List;",
+        "render": "Lnet/minecraft/class_5519;method_25343(Lnet/minecraft/class_4587;IIIIIIIZF)V",
+        "getStatusComponent": "Lnet/minecraft/class_5519;method_31390()Lnet/minecraft/class_2561;"
+      },
+      "su/plo/voice/mixin/MixinMouseHandler": {
+        "onPress": "Lnet/minecraft/class_312;method_1601(JIII)V",
+        "onScroll": "Lnet/minecraft/class_312;method_1598(JDD)V"
+      },
+      "su/plo/voice/mixin/MixinLevelRenderer": {
+        "Lnet/minecraft/client/renderer/RenderStateShard;WEATHER_TARGET:Lnet/minecraft/client/renderer/RenderStateShard$OutputStateShard;": "Lnet/minecraft/class_4668;field_25282:Lnet/minecraft/class_4668$class_4678;",
+        "renderLevel": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V",
+        "Lnet/minecraft/client/renderer/PostChain;process(F)V": "Lnet/minecraft/class_279;method_1258(F)V",
+        "Lnet/minecraft/client/renderer/LevelRenderer;renderSnowAndRain(Lnet/minecraft/client/renderer/LightTexture;FDDD)V": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V"
+      },
+      "su/plo/voice/mixin/MixinPlayerRenderer": {
+        "render": "Lnet/minecraft/class_1007;method_4215(Lnet/minecraft/class_742;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      }
+    }
+  }
+}

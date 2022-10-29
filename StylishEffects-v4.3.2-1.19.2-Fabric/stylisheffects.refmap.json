@@ -1,0 +1,48 @@
+{
+  "mappings": {
+    "fuzs/stylisheffects/mixin/client/MinecraftMixin": {
+      "Lcom/mojang/blaze3d/vertex/BufferUploader;reset()V": "Lnet/minecraft/class_286;method_34420()V",
+      "Lnet/minecraft/client/Minecraft;screen:Lnet/minecraft/client/gui/screens/Screen;": "Lnet/minecraft/class_310;field_1755:Lnet/minecraft/class_437;",
+      "Lnet/minecraft/client/player/LocalPlayer;respawn()V": "Lnet/minecraft/class_746;method_7331()V",
+      "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+    },
+    "fuzs/stylisheffects/mixin/client/EffectRenderingInventoryScreenMixin": {
+      "renderEffects": "Lnet/minecraft/class_485;method_2477(Lnet/minecraft/class_4587;II)V"
+    },
+    "fuzs/stylisheffects/mixin/client/AbstractContainerScreenMixin": {
+      "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;renderLabels(Lcom/mojang/blaze3d/vertex/PoseStack;II)V": "Lnet/minecraft/class_465;method_2388(Lnet/minecraft/class_4587;II)V",
+      "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;renderBg(Lcom/mojang/blaze3d/vertex/PoseStack;FII)V": "Lnet/minecraft/class_465;method_2389(Lnet/minecraft/class_4587;FII)V",
+      "render": "Lnet/minecraft/class_465;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    },
+    "fuzs/stylisheffects/mixin/client/GuiMixin": {
+      "renderEffects": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V"
+    },
+    "fuzs/stylisheffects/mixin/client/accessor/AbstractContainerMenuAccessor": {
+      "menuType": "field_17493:Lnet/minecraft/class_3917;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fuzs/stylisheffects/mixin/client/MinecraftMixin": {
+        "Lcom/mojang/blaze3d/vertex/BufferUploader;reset()V": "Lnet/minecraft/class_286;method_34420()V",
+        "Lnet/minecraft/client/Minecraft;screen:Lnet/minecraft/client/gui/screens/Screen;": "Lnet/minecraft/class_310;field_1755:Lnet/minecraft/class_437;",
+        "Lnet/minecraft/client/player/LocalPlayer;respawn()V": "Lnet/minecraft/class_746;method_7331()V",
+        "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+      },
+      "fuzs/stylisheffects/mixin/client/EffectRenderingInventoryScreenMixin": {
+        "renderEffects": "Lnet/minecraft/class_485;method_2477(Lnet/minecraft/class_4587;II)V"
+      },
+      "fuzs/stylisheffects/mixin/client/AbstractContainerScreenMixin": {
+        "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;renderLabels(Lcom/mojang/blaze3d/vertex/PoseStack;II)V": "Lnet/minecraft/class_465;method_2388(Lnet/minecraft/class_4587;II)V",
+        "Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;renderBg(Lcom/mojang/blaze3d/vertex/PoseStack;FII)V": "Lnet/minecraft/class_465;method_2389(Lnet/minecraft/class_4587;FII)V",
+        "render": "Lnet/minecraft/class_465;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      },
+      "fuzs/stylisheffects/mixin/client/GuiMixin": {
+        "renderEffects": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V"
+      },
+      "fuzs/stylisheffects/mixin/client/accessor/AbstractContainerMenuAccessor": {
+        "menuType": "field_17493:Lnet/minecraft/class_3917;"
+      }
+    }
+  }
+}

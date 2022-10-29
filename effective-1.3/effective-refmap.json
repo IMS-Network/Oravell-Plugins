@@ -1,0 +1,56 @@
+{
+  "mappings": {
+    "ladysnake/effective/mixin/WaterFluidMixin": {
+      "randomDisplayTick": "Lnet/minecraft/class_3621;method_15776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Lnet/minecraft/class_5819;)V"
+    },
+    "ladysnake/effective/mixin/BiomeColorsMixin": {
+      "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+    },
+    "ladysnake/effective/mixin/RenderLayerAccessor": {
+      "of": "method_24049(Ljava/lang/String;Lnet/minecraft/class_293;Lnet/minecraft/class_293$class_5596;IZZLnet/minecraft/class_1921$class_4688;)Lnet/minecraft/class_1921$class_4687;"
+    },
+    "ladysnake/effective/mixin/EntityMixin": {
+      "onSwimmingStart": "Lnet/minecraft/class_1297;method_5746()V"
+    },
+    "ladysnake/effective/mixin/integration/sodium/FluidRendererMixin": {
+      "render": "Lme/jellysquid/mods/sodium/client/render/pipeline/FluidRenderer;render(Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)Z"
+    },
+    "ladysnake/effective/mixin/AbstractBlockMixin": {
+      "getStateForNeighborUpdate": "Lnet/minecraft/class_4970;method_9559(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
+    },
+    "ladysnake/effective/mixin/WorldMixin": {
+      "setBlockState(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;II)Z": "Lnet/minecraft/class_1937;method_30092(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;II)Z"
+    },
+    "ladysnake/effective/mixin/FluidRendererMixin": {
+      "render": "Lnet/minecraft/class_775;method_3347(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;Lnet/minecraft/class_4588;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ladysnake/effective/mixin/WaterFluidMixin": {
+        "randomDisplayTick": "Lnet/minecraft/class_3621;method_15776(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_3610;Lnet/minecraft/class_5819;)V"
+      },
+      "ladysnake/effective/mixin/BiomeColorsMixin": {
+        "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+      },
+      "ladysnake/effective/mixin/RenderLayerAccessor": {
+        "of": "method_24049(Ljava/lang/String;Lnet/minecraft/class_293;Lnet/minecraft/class_293$class_5596;IZZLnet/minecraft/class_1921$class_4688;)Lnet/minecraft/class_1921$class_4687;"
+      },
+      "ladysnake/effective/mixin/EntityMixin": {
+        "onSwimmingStart": "Lnet/minecraft/class_1297;method_5746()V"
+      },
+      "ladysnake/effective/mixin/integration/sodium/FluidRendererMixin": {
+        "render": "Lme/jellysquid/mods/sodium/client/render/pipeline/FluidRenderer;render(Lnet/minecraft/class_1920;Lnet/minecraft/class_3610;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;Lme/jellysquid/mods/sodium/client/render/chunk/compile/buffers/ChunkModelBuilder;)Z"
+      },
+      "ladysnake/effective/mixin/AbstractBlockMixin": {
+        "getStateForNeighborUpdate": "Lnet/minecraft/class_4970;method_9559(Lnet/minecraft/class_2680;Lnet/minecraft/class_2350;Lnet/minecraft/class_2680;Lnet/minecraft/class_1936;Lnet/minecraft/class_2338;Lnet/minecraft/class_2338;)Lnet/minecraft/class_2680;"
+      },
+      "ladysnake/effective/mixin/WorldMixin": {
+        "setBlockState(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/BlockState;II)Z": "Lnet/minecraft/class_1937;method_30092(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;II)Z"
+      },
+      "ladysnake/effective/mixin/FluidRendererMixin": {
+        "render": "Lnet/minecraft/class_775;method_3347(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;Lnet/minecraft/class_4588;Lnet/minecraft/class_2680;Lnet/minecraft/class_3610;)V"
+      }
+    }
+  }
+}

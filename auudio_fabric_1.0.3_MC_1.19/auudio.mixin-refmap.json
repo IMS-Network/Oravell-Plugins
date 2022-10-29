@@ -1,0 +1,52 @@
+{
+  "mappings": {
+    "de/keksuccino/auudio/mixin/client/IMixinChannelHandle": {
+      "channel": "field_18941:Lnet/minecraft/class_4224;"
+    },
+    "de/keksuccino/auudio/mixin/client/IMixinSoundManager": {
+      "registry": "field_5588:Ljava/util/Map;",
+      "soundEngine": "field_5590:Lnet/minecraft/class_1140;"
+    },
+    "de/keksuccino/auudio/mixin/client/MixinSoundBufferLibrary": {
+      "getStream": "Lnet/minecraft/class_4237;method_19744(Lnet/minecraft/class_2960;Z)Ljava/util/concurrent/CompletableFuture;"
+    },
+    "de/keksuccino/auudio/mixin/client/IMixinChannel": {
+      "source": "field_18893:I"
+    },
+    "de/keksuccino/auudio/mixin/client/MixinMinecraft": {
+      "tick": "Lnet/minecraft/class_310;method_1574()V"
+    },
+    "de/keksuccino/auudio/mixin/client/IMixinSoundEngine": {
+      "instanceToChannel": "field_18950:Ljava/util/Map;"
+    },
+    "de/keksuccino/auudio/mixin/client/MixinSoundEngine": {
+      "updateCategoryVolume": "Lnet/minecraft/class_1140;method_4844(Lnet/minecraft/class_3419;F)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "de/keksuccino/auudio/mixin/client/IMixinChannelHandle": {
+        "channel": "field_18941:Lnet/minecraft/class_4224;"
+      },
+      "de/keksuccino/auudio/mixin/client/IMixinSoundManager": {
+        "registry": "field_5588:Ljava/util/Map;",
+        "soundEngine": "field_5590:Lnet/minecraft/class_1140;"
+      },
+      "de/keksuccino/auudio/mixin/client/MixinSoundBufferLibrary": {
+        "getStream": "Lnet/minecraft/class_4237;method_19744(Lnet/minecraft/class_2960;Z)Ljava/util/concurrent/CompletableFuture;"
+      },
+      "de/keksuccino/auudio/mixin/client/IMixinChannel": {
+        "source": "field_18893:I"
+      },
+      "de/keksuccino/auudio/mixin/client/MixinMinecraft": {
+        "tick": "Lnet/minecraft/class_310;method_1574()V"
+      },
+      "de/keksuccino/auudio/mixin/client/IMixinSoundEngine": {
+        "instanceToChannel": "field_18950:Ljava/util/Map;"
+      },
+      "de/keksuccino/auudio/mixin/client/MixinSoundEngine": {
+        "updateCategoryVolume": "Lnet/minecraft/class_1140;method_4844(Lnet/minecraft/class_3419;F)V"
+      }
+    }
+  }
+}

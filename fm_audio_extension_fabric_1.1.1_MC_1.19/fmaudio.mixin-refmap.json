@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "de/keksuccino/fmaudio/mixin/client/MixinScreen": {
+      "init(Lnet/minecraft/client/Minecraft;II)V": "Lnet/minecraft/class_437;method_25423(Lnet/minecraft/class_310;II)V"
+    },
+    "de/keksuccino/fmaudio/mixin/client/MixinMusicManager": {
+      "tick": "Lnet/minecraft/class_1142;method_18669()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "de/keksuccino/fmaudio/mixin/client/MixinScreen": {
+        "init(Lnet/minecraft/client/Minecraft;II)V": "Lnet/minecraft/class_437;method_25423(Lnet/minecraft/class_310;II)V"
+      },
+      "de/keksuccino/fmaudio/mixin/client/MixinMusicManager": {
+        "tick": "Lnet/minecraft/class_1142;method_18669()V"
+      }
+    }
+  }
+}

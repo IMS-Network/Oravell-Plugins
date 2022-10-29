@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.tr7zw.notenoughanimations.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "PlayerEntityModelMixin",
+    "PlayerEntityMixin",
+    "LevelRendererMixin",
+    "ItemInHandLayerMixin",
+    "PlayerRendererMixin",
+    "ItemInHandRendererMixin",
+    "LivingEntityMixin",
+    "DonorAbstractClientPlayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "notenoughanimations.refmap.mixins.json"
+}

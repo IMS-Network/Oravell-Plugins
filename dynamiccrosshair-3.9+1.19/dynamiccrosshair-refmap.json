@@ -1,0 +1,112 @@
+{
+  "mappings": {
+    "mod/crend/dynamiccrosshair/mixin/IFurnaceMinecartEntityMixin": {
+      "ACCEPTABLE_FUEL": "field_7738:Lnet/minecraft/class_1856;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IFlowerPotBlockMixin": {
+      "CONTENT_TO_POTTED": "field_11103:Ljava/util/Map;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IItemMixin": {
+      "raycast": "method_7872(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_3959$class_242;)Lnet/minecraft/class_3965;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/InGameHudMixin": {
+      "Lnet/minecraft/client/option/GameOptions;debugEnabled:Z": "Lnet/minecraft/class_315;field_1866:Z",
+      "Lnet/minecraft/client/option/GameOptions;getPerspective()Lnet/minecraft/client/option/Perspective;": "Lnet/minecraft/class_315;method_31044()Lnet/minecraft/class_5498;",
+      "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V",
+      "Lnet/minecraft/client/gui/hud/InGameHud;drawTexture(Lnet/minecraft/client/util/math/MatrixStack;IIIIII)V": "Lnet/minecraft/class_329;method_25302(Lnet/minecraft/class_4587;IIIIII)V",
+      "tick()V": "Lnet/minecraft/class_329;method_1748()V"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IBoatEntityMixin": {
+      "canAddPassenger": "method_5818(Lnet/minecraft/class_1297;)Z"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IBlockItemMixin": {
+      "getPlacementState": "method_7707(Lnet/minecraft/class_1750;)Lnet/minecraft/class_2680;",
+      "canPlace": "method_7709(Lnet/minecraft/class_1750;Lnet/minecraft/class_2680;)Z"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IParrotEntityMixin": {
+      "TAMING_INGREDIENTS": "field_6825:Ljava/util/Set;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IAbstractBlockMixin": {
+      "material": "field_23158:Lnet/minecraft/class_3614;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IHoeItemMixin": {
+      "TILLING_ACTIONS": "field_8023:Ljava/util/Map;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IShovelItemMixin": {
+      "PATH_STATES": "field_8912:Ljava/util/Map;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IBucketItemMixin": {
+      "fluid": "field_7905:Lnet/minecraft/class_3611;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IAxeItemMixin": {
+      "STRIPPED_BLOCKS": "field_7898:Ljava/util/Map;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IArmorStandEntityMixin": {
+      "isSlotDisabled": "method_6915(Lnet/minecraft/class_1304;)Z",
+      "getSlotFromPosition": "method_6916(Lnet/minecraft/class_243;)Lnet/minecraft/class_1304;"
+    },
+    "mod/crend/dynamiccrosshair/compat/mixin/mythicmounts/ColelytraEntityMixin": {
+      "isDyeIngredient": "Lcom/yahoo/chirpycricket/mythicmounts/entity/mounts/ColelytraEntity;isDyeIngredient(Lnet/minecraft/class_1792;)Lnet/minecraft/class_1767;"
+    },
+    "mod/crend/dynamiccrosshair/mixin/IRedstoneWireBlockMixin": {
+      "isNotConnected": "method_28483(Lnet/minecraft/class_2680;)Z",
+      "isFullyConnected": "method_27846(Lnet/minecraft/class_2680;)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "mod/crend/dynamiccrosshair/mixin/IFurnaceMinecartEntityMixin": {
+        "ACCEPTABLE_FUEL": "field_7738:Lnet/minecraft/class_1856;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IFlowerPotBlockMixin": {
+        "CONTENT_TO_POTTED": "field_11103:Ljava/util/Map;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IItemMixin": {
+        "raycast": "method_7872(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_3959$class_242;)Lnet/minecraft/class_3965;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/InGameHudMixin": {
+        "Lnet/minecraft/client/option/GameOptions;debugEnabled:Z": "Lnet/minecraft/class_315;field_1866:Z",
+        "Lnet/minecraft/client/option/GameOptions;getPerspective()Lnet/minecraft/client/option/Perspective;": "Lnet/minecraft/class_315;method_31044()Lnet/minecraft/class_5498;",
+        "renderCrosshair": "Lnet/minecraft/class_329;method_1736(Lnet/minecraft/class_4587;)V",
+        "Lnet/minecraft/client/gui/hud/InGameHud;drawTexture(Lnet/minecraft/client/util/math/MatrixStack;IIIIII)V": "Lnet/minecraft/class_329;method_25302(Lnet/minecraft/class_4587;IIIIII)V",
+        "tick()V": "Lnet/minecraft/class_329;method_1748()V"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IBoatEntityMixin": {
+        "canAddPassenger": "method_5818(Lnet/minecraft/class_1297;)Z"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IBlockItemMixin": {
+        "getPlacementState": "method_7707(Lnet/minecraft/class_1750;)Lnet/minecraft/class_2680;",
+        "canPlace": "method_7709(Lnet/minecraft/class_1750;Lnet/minecraft/class_2680;)Z"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IParrotEntityMixin": {
+        "TAMING_INGREDIENTS": "field_6825:Ljava/util/Set;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IAbstractBlockMixin": {
+        "material": "field_23158:Lnet/minecraft/class_3614;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IHoeItemMixin": {
+        "TILLING_ACTIONS": "field_8023:Ljava/util/Map;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IShovelItemMixin": {
+        "PATH_STATES": "field_8912:Ljava/util/Map;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IBucketItemMixin": {
+        "fluid": "field_7905:Lnet/minecraft/class_3611;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IAxeItemMixin": {
+        "STRIPPED_BLOCKS": "field_7898:Ljava/util/Map;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IArmorStandEntityMixin": {
+        "isSlotDisabled": "method_6915(Lnet/minecraft/class_1304;)Z",
+        "getSlotFromPosition": "method_6916(Lnet/minecraft/class_243;)Lnet/minecraft/class_1304;"
+      },
+      "mod/crend/dynamiccrosshair/compat/mixin/mythicmounts/ColelytraEntityMixin": {
+        "isDyeIngredient": "Lcom/yahoo/chirpycricket/mythicmounts/entity/mounts/ColelytraEntity;isDyeIngredient(Lnet/minecraft/class_1792;)Lnet/minecraft/class_1767;"
+      },
+      "mod/crend/dynamiccrosshair/mixin/IRedstoneWireBlockMixin": {
+        "isNotConnected": "method_28483(Lnet/minecraft/class_2680;)Z",
+        "isFullyConnected": "method_27846(Lnet/minecraft/class_2680;)Z"
+      }
+    }
+  }
+}

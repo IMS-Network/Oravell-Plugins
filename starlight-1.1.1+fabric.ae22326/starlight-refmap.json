@@ -1,0 +1,56 @@
+{
+  "mappings": {
+    "ca/spottedleaf/starlight/mixin/client/multiplayer/ClientPacketListenerMixin": {
+      "readSectionList": "Lnet/minecraft/class_634;method_2870(IILnet/minecraft/class_3568;Lnet/minecraft/class_1944;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Iterator;Z)V",
+      "Lnet/minecraft/client/multiplayer/ClientLevel;queueLightUpdate(Ljava/lang/Runnable;)V": "Lnet/minecraft/class_638;method_38536(Ljava/lang/Runnable;)V",
+      "Lnet/minecraft/client/multiplayer/ClientPacketListener;queueLightUpdate(IILnet/minecraft/network/protocol/game/ClientboundLightUpdatePacketData;)V": "Lnet/minecraft/class_634;method_38540(IILnet/minecraft/class_6606;)V",
+      "handleLevelChunkWithLight": "Lnet/minecraft/class_634;method_11128(Lnet/minecraft/class_2672;)V",
+      "Lnet/minecraft/world/level/lighting/LevelLightEngine;queueSectionData(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;Lnet/minecraft/world/level/chunk/DataLayer;Z)V": "Lnet/minecraft/class_3568;method_15558(Lnet/minecraft/class_1944;Lnet/minecraft/class_4076;Lnet/minecraft/class_2804;Z)V",
+      "Lnet/minecraft/client/multiplayer/ClientPacketListener;queueLightUpdate(Lnet/minecraft/network/protocol/game/ClientboundForgetLevelChunkPacket;)V": "Lnet/minecraft/class_634;method_38544(Lnet/minecraft/class_2666;)V",
+      "handleLightUpdatePacket": "Lnet/minecraft/class_634;method_11143(Lnet/minecraft/class_2676;)V",
+      "handleForgetLevelChunk": "Lnet/minecraft/class_634;method_11107(Lnet/minecraft/class_2666;)V"
+    },
+    "ca/spottedleaf/starlight/mixin/common/chunk/ProtoChunkMixin": {
+      "<init>(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/UpgradeData;[Lnet/minecraft/world/level/chunk/LevelChunkSection;Lnet/minecraft/world/ticks/ProtoChunkTicks;Lnet/minecraft/world/ticks/ProtoChunkTicks;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/Registry;Lnet/minecraft/world/level/levelgen/blending/BlendingData;)V": "Lnet/minecraft/class_2839;<init>(Lnet/minecraft/class_1923;Lnet/minecraft/class_2843;[Lnet/minecraft/class_2826;Lnet/minecraft/class_4296;Lnet/minecraft/class_4296;Lnet/minecraft/class_5539;Lnet/minecraft/class_2378;Lnet/minecraft/class_6749;)V"
+    },
+    "ca/spottedleaf/starlight/mixin/common/chunk/LevelChunkMixin": {
+      "<init>(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/UpgradeData;Lnet/minecraft/world/ticks/LevelChunkTicks;Lnet/minecraft/world/ticks/LevelChunkTicks;J[Lnet/minecraft/world/level/chunk/LevelChunkSection;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;Lnet/minecraft/world/level/levelgen/blending/BlendingData;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_1937;Lnet/minecraft/class_1923;Lnet/minecraft/class_2843;Lnet/minecraft/class_6755;Lnet/minecraft/class_6755;J[Lnet/minecraft/class_2826;Lnet/minecraft/class_2818$class_6829;Lnet/minecraft/class_6749;)V",
+      "<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_3218;Lnet/minecraft/class_2839;Lnet/minecraft/class_2818$class_6829;)V"
+    },
+    "ca/spottedleaf/starlight/mixin/common/blockstate/BlockStateBaseMixin": {
+      "initCache": "Lnet/minecraft/class_4970$class_4971;method_26200()V"
+    },
+    "ca/spottedleaf/starlight/mixin/common/world/ChunkSerializerMixin": {
+      "read": "Lnet/minecraft/class_2852;method_12395(Lnet/minecraft/class_3218;Lnet/minecraft/class_4153;Lnet/minecraft/class_1923;Lnet/minecraft/class_2487;)Lnet/minecraft/class_2839;",
+      "write": "Lnet/minecraft/class_2852;method_12410(Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2487;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "ca/spottedleaf/starlight/mixin/client/multiplayer/ClientPacketListenerMixin": {
+        "readSectionList": "Lnet/minecraft/class_634;method_2870(IILnet/minecraft/class_3568;Lnet/minecraft/class_1944;Ljava/util/BitSet;Ljava/util/BitSet;Ljava/util/Iterator;Z)V",
+        "Lnet/minecraft/client/multiplayer/ClientLevel;queueLightUpdate(Ljava/lang/Runnable;)V": "Lnet/minecraft/class_638;method_38536(Ljava/lang/Runnable;)V",
+        "Lnet/minecraft/client/multiplayer/ClientPacketListener;queueLightUpdate(IILnet/minecraft/network/protocol/game/ClientboundLightUpdatePacketData;)V": "Lnet/minecraft/class_634;method_38540(IILnet/minecraft/class_6606;)V",
+        "handleLevelChunkWithLight": "Lnet/minecraft/class_634;method_11128(Lnet/minecraft/class_2672;)V",
+        "Lnet/minecraft/world/level/lighting/LevelLightEngine;queueSectionData(Lnet/minecraft/world/level/LightLayer;Lnet/minecraft/core/SectionPos;Lnet/minecraft/world/level/chunk/DataLayer;Z)V": "Lnet/minecraft/class_3568;method_15558(Lnet/minecraft/class_1944;Lnet/minecraft/class_4076;Lnet/minecraft/class_2804;Z)V",
+        "Lnet/minecraft/client/multiplayer/ClientPacketListener;queueLightUpdate(Lnet/minecraft/network/protocol/game/ClientboundForgetLevelChunkPacket;)V": "Lnet/minecraft/class_634;method_38544(Lnet/minecraft/class_2666;)V",
+        "handleLightUpdatePacket": "Lnet/minecraft/class_634;method_11143(Lnet/minecraft/class_2676;)V",
+        "handleForgetLevelChunk": "Lnet/minecraft/class_634;method_11107(Lnet/minecraft/class_2666;)V"
+      },
+      "ca/spottedleaf/starlight/mixin/common/chunk/ProtoChunkMixin": {
+        "<init>(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/UpgradeData;[Lnet/minecraft/world/level/chunk/LevelChunkSection;Lnet/minecraft/world/ticks/ProtoChunkTicks;Lnet/minecraft/world/ticks/ProtoChunkTicks;Lnet/minecraft/world/level/LevelHeightAccessor;Lnet/minecraft/core/Registry;Lnet/minecraft/world/level/levelgen/blending/BlendingData;)V": "Lnet/minecraft/class_2839;<init>(Lnet/minecraft/class_1923;Lnet/minecraft/class_2843;[Lnet/minecraft/class_2826;Lnet/minecraft/class_4296;Lnet/minecraft/class_4296;Lnet/minecraft/class_5539;Lnet/minecraft/class_2378;Lnet/minecraft/class_6749;)V"
+      },
+      "ca/spottedleaf/starlight/mixin/common/chunk/LevelChunkMixin": {
+        "<init>(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/UpgradeData;Lnet/minecraft/world/ticks/LevelChunkTicks;Lnet/minecraft/world/ticks/LevelChunkTicks;J[Lnet/minecraft/world/level/chunk/LevelChunkSection;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;Lnet/minecraft/world/level/levelgen/blending/BlendingData;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_1937;Lnet/minecraft/class_1923;Lnet/minecraft/class_2843;Lnet/minecraft/class_6755;Lnet/minecraft/class_6755;J[Lnet/minecraft/class_2826;Lnet/minecraft/class_2818$class_6829;Lnet/minecraft/class_6749;)V",
+        "<init>(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ProtoChunk;Lnet/minecraft/world/level/chunk/LevelChunk$PostLoadProcessor;)V": "Lnet/minecraft/class_2818;<init>(Lnet/minecraft/class_3218;Lnet/minecraft/class_2839;Lnet/minecraft/class_2818$class_6829;)V"
+      },
+      "ca/spottedleaf/starlight/mixin/common/blockstate/BlockStateBaseMixin": {
+        "initCache": "Lnet/minecraft/class_4970$class_4971;method_26200()V"
+      },
+      "ca/spottedleaf/starlight/mixin/common/world/ChunkSerializerMixin": {
+        "read": "Lnet/minecraft/class_2852;method_12395(Lnet/minecraft/class_3218;Lnet/minecraft/class_4153;Lnet/minecraft/class_1923;Lnet/minecraft/class_2487;)Lnet/minecraft/class_2839;",
+        "write": "Lnet/minecraft/class_2852;method_12410(Lnet/minecraft/class_3218;Lnet/minecraft/class_2791;)Lnet/minecraft/class_2487;"
+      }
+    }
+  }
+}

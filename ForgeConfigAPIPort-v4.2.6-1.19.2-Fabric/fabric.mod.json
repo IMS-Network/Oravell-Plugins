@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "forgeconfigapiport",
+  "version": "4.2.6",
+  "name": "Forge Config API Port",
+  "description": "Yes, you\u0027re reading that correctly. This is the whole Forge Config API ported to Fabric.",
+  "authors": [
+    "Fuzs"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric",
+    "issues": "https://github.com/Fuzss/forgeconfigapiport-fabric/issues",
+    "sources": "https://github.com/Fuzss/forgeconfigapiport-fabric"
+  },
+  "license": "MPL-2",
+  "icon": "mod_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.minecraftforge.ForgeConfigAPIPort"
+    ],
+    "client": [
+      "net.minecraftforge.client.ForgeConfigAPIPortClient"
+    ],
+    "modmenu": [
+      "net.minecraftforge.modmenu.ConfigFactoryHandler"
+    ]
+  },
+  "mixins": [
+    "forgeconfigapiport.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14",
+    "fabric": "\u003e\u003d0.55.1",
+    "com_electronwill_night-config_core": "*",
+    "com_electronwill_night-config_toml": "*",
+    "minecraft": "\u003e\u003d1.19 \u003c1.20",
+    "java": "\u003e\u003d17"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/core-3.6.5.jar"
+    },
+    {
+      "file": "META-INF/jars/toml-3.6.5.jar"
+    }
+  ]
+}

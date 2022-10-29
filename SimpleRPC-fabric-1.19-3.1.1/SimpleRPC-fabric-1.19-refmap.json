@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "me/hypherionmc/simplerpc/mixin/ScreenEventsMixin": {
+      "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V",
+      "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+    },
+    "me/hypherionmc/simplerpc/mixin/OptionsScreenMixin": {
+      "init": "Lnet/minecraft/class_429;method_25426()V"
+    },
+    "me/hypherionmc/simplerpc/mixin/ClientLevelMixin": {
+      "addPlayer": "Lnet/minecraft/class_638;method_18107(ILnet/minecraft/class_742;)V"
+    },
+    "me/hypherionmc/simplerpc/mixin/ServerWorldMixin": {
+      "addPlayer": "Lnet/minecraft/class_3218;method_18771(Lnet/minecraft/class_3222;)V"
+    },
+    "me/hypherionmc/simplerpc/mixin/RealmsMainScreenMixin": {
+      "play": "Lnet/minecraft/class_4325;method_20853(Lnet/minecraft/class_4877;Lnet/minecraft/class_437;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/hypherionmc/simplerpc/mixin/ScreenEventsMixin": {
+        "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V",
+        "setScreen": "Lnet/minecraft/class_310;method_1507(Lnet/minecraft/class_437;)V"
+      },
+      "me/hypherionmc/simplerpc/mixin/OptionsScreenMixin": {
+        "init": "Lnet/minecraft/class_429;method_25426()V"
+      },
+      "me/hypherionmc/simplerpc/mixin/ClientLevelMixin": {
+        "addPlayer": "Lnet/minecraft/class_638;method_18107(ILnet/minecraft/class_742;)V"
+      },
+      "me/hypherionmc/simplerpc/mixin/ServerWorldMixin": {
+        "addPlayer": "Lnet/minecraft/class_3218;method_18771(Lnet/minecraft/class_3222;)V"
+      },
+      "me/hypherionmc/simplerpc/mixin/RealmsMainScreenMixin": {
+        "play": "Lnet/minecraft/class_4325;method_20853(Lnet/minecraft/class_4877;Lnet/minecraft/class_437;)V"
+      }
+    }
+  }
+}

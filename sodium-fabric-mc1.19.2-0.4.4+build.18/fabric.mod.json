@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium",
+  "version": "0.4.4+build.18",
+  "name": "Sodium",
+  "description": "Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.",
+  "authors": [
+    "JellySquid"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CaffeineMC/sodium-fabric",
+    "sources": "https://github.com/CaffeineMC/sodium-fabric",
+    "issues": "https://github.com/CaffeineMC/sodium-fabric/issues"
+  },
+  "license": "LGPL-3.0-only",
+  "icon": "assets/sodium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.jellysquid.mods.sodium.client.SodiumClientMod"
+    ],
+    "preLaunch": [
+      "me.jellysquid.mods.sodium.client.SodiumPreLaunch"
+    ]
+  },
+  "custom": {
+    "fabric-renderer-api-v1:contains_renderer": true
+  },
+  "accessWidener": "sodium.accesswidener",
+  "mixins": [
+    "sodium.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.12.0",
+    "fabric-rendering-data-attachment-v1": "\u003e\u003d0.1",
+    "fabric-rendering-fluids-v1": "\u003e\u003d0.1"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "canvas": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/joml-1.10.4.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-api-base-0.4.11+e62f51a390.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-fluids-v1-3.0.7+aeb40ebe90.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.14+aeb40ebe90.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-0.6.1+aeb40ebe90.jar"
+    }
+  ]
+}

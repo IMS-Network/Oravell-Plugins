@@ -1,0 +1,218 @@
+{
+  "mappings": {
+    "me/flashyreese/mods/sodiumextra/mixin/reduce_resolution_on_mac/MixinWindow": {
+      "updateFramebufferSize": "Lnet/minecraft/class_1041;method_4483()V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinLivingEntityRenderer": {
+      "hasLabel(Lnet/minecraft/entity/LivingEntity;)Z": "Lnet/minecraft/class_922;method_4055(Lnet/minecraft/class_1309;)Z",
+      "render(Lnet/minecraft/entity/LivingEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_922;method_4054(Lnet/minecraft/class_1309;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/compat/MixinTitleScreen": {
+      "init": "Lnet/minecraft/class_442;method_25426()V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/light_updates/MixinLightingProvider": {
+      "doLightUpdates": "Lnet/minecraft/class_3568;method_15516(IZZ)I",
+      "checkBlock": "Lnet/minecraft/class_3568;method_15513(Lnet/minecraft/class_2338;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinGuardianEntityRenderer": {
+      "render(Lnet/minecraft/entity/mob/GuardianEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_907;method_3977(Lnet/minecraft/class_1577;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "Lnet/minecraft/world/World;getTime()J": "Lnet/minecraft/class_1937;method_8510()J"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinPaintingEntityRenderer": {
+      "render(Lnet/minecraft/entity/decoration/painting/PaintingEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_928;method_4075(Lnet/minecraft/class_1534;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/fog/DimensionOptionsAccessor": {
+      "BASE_DIMENSIONS": "field_25415:Ljava/util/Set;"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/adaptive_sync/MixinWindow": {
+      "setVsync": "Lnet/minecraft/class_1041;method_4497(Z)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/toasts/MixinToastManager": {
+      "add": "Lnet/minecraft/class_374;method_1999(Lnet/minecraft/class_368;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/gui/MinecraftClientAccessor": {
+      "currentFps": "field_1738:I"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/sky/MixinWorldRenderer": {
+      "renderEndSky": "Lnet/minecraft/class_761;method_3250(Lnet/minecraft/class_4587;)V",
+      "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V",
+      "Lnet/minecraft/client/gl/VertexBuffer;draw(Lnet/minecraft/util/math/Matrix4f;Lnet/minecraft/util/math/Matrix4f;Lnet/minecraft/client/render/Shader;)V": "Lnet/minecraft/class_291;method_34427(Lnet/minecraft/class_1159;Lnet/minecraft/class_1159;Lnet/minecraft/class_5944;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/sky_colors/MixinBiome": {
+      "getSkyColor": "Lnet/minecraft/class_1959;method_8697()I"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinEnchantingTableBlockEntityRenderer": {
+      "render(Lnet/minecraft/block/entity/EnchantingTableBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_828;method_3571(Lnet/minecraft/class_2605;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/prevent_shaders/MixinGameRenderer": {
+      "toggleShadersEnabled": "Lnet/minecraft/class_757;method_3184()V",
+      "loadShader": "Lnet/minecraft/class_757;method_3168(Lnet/minecraft/class_2960;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/animation/MixinSpriteAtlasTexture": {
+      "upload": "Lnet/minecraft/class_1059;method_18159(Lnet/minecraft/class_1059$class_4007;)V",
+      "Lnet/minecraft/client/texture/Sprite;getAnimation()Lnet/minecraft/client/texture/TextureTickListener;": "Lnet/minecraft/class_1058;method_33443()Lnet/minecraft/class_1061;"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/fog/MixinBackgroundRenderer": {
+      "applyFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZF)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/gui/MixinInGameHud": {
+      "Lnet/minecraft/client/gui/hud/InGameHud;renderStatusEffectOverlay(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V",
+      "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/stars/MixinWorldRenderer": {
+      "Lnet/minecraft/client/world/ClientWorld;method_23787(F)F": "Lnet/minecraft/class_638;method_23787(F)F",
+      "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/instant_sneak/MixinCamera": {
+      "updateEyeHeight": "Lnet/minecraft/class_4184;method_19317()V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/cloud/MixinWorldRenderer": {
+      "renderClouds(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FDDD)V": "Lnet/minecraft/class_761;method_3259(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FDDD)V",
+      "Lnet/minecraft/client/render/DimensionEffects;getCloudsHeight()F": "Lnet/minecraft/class_5294;method_28108()F"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/particle/MixinParticleManager": {
+      "addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/class_702;method_3056(Lnet/minecraft/class_2394;DDDDDD)Lnet/minecraft/class_703;",
+      "addBlockBreakParticles": "Lnet/minecraft/class_702;method_3046(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V",
+      "addBlockBreakingParticles": "Lnet/minecraft/class_702;method_3054(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/particle/MixinFireworkParticle": {
+      "Lnet/minecraft/client/particle/Particle;setColor(FFF)V": "Lnet/minecraft/class_703;method_3084(FFF)V",
+      "tick": "Lnet/minecraft/class_677$class_681;method_3070()V",
+      "addExplosionParticle": "Lnet/minecraft/class_677$class_681;method_3030(DDDDDD[I[IZZ)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/sun_moon/MixinWorldRenderer": {
+      "Lnet/minecraft/client/render/DimensionEffects;getFogColorOverride(FF)[F": "Lnet/minecraft/class_5294;method_28109(FF)[F",
+      "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V",
+      "reload()V": "Lnet/minecraft/class_761;method_3279()V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/biome_colors/MixinBiomeColors": {
+      "getFoliageColor": "Lnet/minecraft/class_1163;method_4966(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+      "getGrassColor": "Lnet/minecraft/class_1163;method_4962(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+      "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinPistonBlockEntityRenderer": {
+      "render(Lnet/minecraft/block/entity/PistonBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_835;method_3576(Lnet/minecraft/class_2669;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/particle/MixinWorldRenderer": {
+      "renderWeather": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V",
+      "tickRainSplashing": "Lnet/minecraft/class_761;method_22713(Lnet/minecraft/class_4184;)V"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinItemFrameEntityRenderer": {
+      "Lnet/minecraft/client/render/entity/EntityRenderer;render(Lnet/minecraft/entity/Entity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "render(Lnet/minecraft/entity/decoration/ItemFrameEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_915;method_3994(Lnet/minecraft/class_1533;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "hasLabel(Lnet/minecraft/entity/decoration/ItemFrameEntity;)Z": "Lnet/minecraft/class_915;method_23176(Lnet/minecraft/class_1533;)Z"
+    },
+    "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinBeaconBlockEntityRenderer": {
+      "render(Lnet/minecraft/block/entity/BeaconBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_822;method_3541(Lnet/minecraft/class_2580;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/flashyreese/mods/sodiumextra/mixin/reduce_resolution_on_mac/MixinWindow": {
+        "updateFramebufferSize": "Lnet/minecraft/class_1041;method_4483()V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinLivingEntityRenderer": {
+        "hasLabel(Lnet/minecraft/entity/LivingEntity;)Z": "Lnet/minecraft/class_922;method_4055(Lnet/minecraft/class_1309;)Z",
+        "render(Lnet/minecraft/entity/LivingEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_922;method_4054(Lnet/minecraft/class_1309;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/compat/MixinTitleScreen": {
+        "init": "Lnet/minecraft/class_442;method_25426()V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/light_updates/MixinLightingProvider": {
+        "doLightUpdates": "Lnet/minecraft/class_3568;method_15516(IZZ)I",
+        "checkBlock": "Lnet/minecraft/class_3568;method_15513(Lnet/minecraft/class_2338;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinGuardianEntityRenderer": {
+        "render(Lnet/minecraft/entity/mob/GuardianEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_907;method_3977(Lnet/minecraft/class_1577;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "Lnet/minecraft/world/World;getTime()J": "Lnet/minecraft/class_1937;method_8510()J"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinPaintingEntityRenderer": {
+        "render(Lnet/minecraft/entity/decoration/painting/PaintingEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_928;method_4075(Lnet/minecraft/class_1534;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/fog/DimensionOptionsAccessor": {
+        "BASE_DIMENSIONS": "field_25415:Ljava/util/Set;"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/adaptive_sync/MixinWindow": {
+        "setVsync": "Lnet/minecraft/class_1041;method_4497(Z)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/toasts/MixinToastManager": {
+        "add": "Lnet/minecraft/class_374;method_1999(Lnet/minecraft/class_368;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/gui/MinecraftClientAccessor": {
+        "currentFps": "field_1738:I"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/sky/MixinWorldRenderer": {
+        "renderEndSky": "Lnet/minecraft/class_761;method_3250(Lnet/minecraft/class_4587;)V",
+        "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V",
+        "Lnet/minecraft/client/gl/VertexBuffer;draw(Lnet/minecraft/util/math/Matrix4f;Lnet/minecraft/util/math/Matrix4f;Lnet/minecraft/client/render/Shader;)V": "Lnet/minecraft/class_291;method_34427(Lnet/minecraft/class_1159;Lnet/minecraft/class_1159;Lnet/minecraft/class_5944;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/sky_colors/MixinBiome": {
+        "getSkyColor": "Lnet/minecraft/class_1959;method_8697()I"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinEnchantingTableBlockEntityRenderer": {
+        "render(Lnet/minecraft/block/entity/EnchantingTableBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_828;method_3571(Lnet/minecraft/class_2605;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/prevent_shaders/MixinGameRenderer": {
+        "toggleShadersEnabled": "Lnet/minecraft/class_757;method_3184()V",
+        "loadShader": "Lnet/minecraft/class_757;method_3168(Lnet/minecraft/class_2960;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/animation/MixinSpriteAtlasTexture": {
+        "upload": "Lnet/minecraft/class_1059;method_18159(Lnet/minecraft/class_1059$class_4007;)V",
+        "Lnet/minecraft/client/texture/Sprite;getAnimation()Lnet/minecraft/client/texture/TextureTickListener;": "Lnet/minecraft/class_1058;method_33443()Lnet/minecraft/class_1061;"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/fog/MixinBackgroundRenderer": {
+        "applyFog": "Lnet/minecraft/class_758;method_3211(Lnet/minecraft/class_4184;Lnet/minecraft/class_758$class_4596;FZF)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/gui/MixinInGameHud": {
+        "Lnet/minecraft/client/gui/hud/InGameHud;renderStatusEffectOverlay(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1765(Lnet/minecraft/class_4587;)V",
+        "render": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/stars/MixinWorldRenderer": {
+        "Lnet/minecraft/client/world/ClientWorld;method_23787(F)F": "Lnet/minecraft/class_638;method_23787(F)F",
+        "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/instant_sneak/MixinCamera": {
+        "updateEyeHeight": "Lnet/minecraft/class_4184;method_19317()V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/cloud/MixinWorldRenderer": {
+        "renderClouds(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FDDD)V": "Lnet/minecraft/class_761;method_3259(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FDDD)V",
+        "Lnet/minecraft/client/render/DimensionEffects;getCloudsHeight()F": "Lnet/minecraft/class_5294;method_28108()F"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/particle/MixinParticleManager": {
+        "addParticle(Lnet/minecraft/particle/ParticleEffect;DDDDDD)Lnet/minecraft/client/particle/Particle;": "Lnet/minecraft/class_702;method_3056(Lnet/minecraft/class_2394;DDDDDD)Lnet/minecraft/class_703;",
+        "addBlockBreakParticles": "Lnet/minecraft/class_702;method_3046(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V",
+        "addBlockBreakingParticles": "Lnet/minecraft/class_702;method_3054(Lnet/minecraft/class_2338;Lnet/minecraft/class_2350;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/particle/MixinFireworkParticle": {
+        "Lnet/minecraft/client/particle/Particle;setColor(FFF)V": "Lnet/minecraft/class_703;method_3084(FFF)V",
+        "tick": "Lnet/minecraft/class_677$class_681;method_3070()V",
+        "addExplosionParticle": "Lnet/minecraft/class_677$class_681;method_3030(DDDDDD[I[IZZ)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/sun_moon/MixinWorldRenderer": {
+        "Lnet/minecraft/client/render/DimensionEffects;getFogColorOverride(FF)[F": "Lnet/minecraft/class_5294;method_28109(FF)[F",
+        "renderSky(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/util/math/Matrix4f;FLnet/minecraft/client/render/Camera;ZLjava/lang/Runnable;)V": "Lnet/minecraft/class_761;method_3257(Lnet/minecraft/class_4587;Lnet/minecraft/class_1159;FLnet/minecraft/class_4184;ZLjava/lang/Runnable;)V",
+        "reload()V": "Lnet/minecraft/class_761;method_3279()V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/biome_colors/MixinBiomeColors": {
+        "getFoliageColor": "Lnet/minecraft/class_1163;method_4966(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+        "getGrassColor": "Lnet/minecraft/class_1163;method_4962(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I",
+        "getWaterColor": "Lnet/minecraft/class_1163;method_4961(Lnet/minecraft/class_1920;Lnet/minecraft/class_2338;)I"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinPistonBlockEntityRenderer": {
+        "render(Lnet/minecraft/block/entity/PistonBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_835;method_3576(Lnet/minecraft/class_2669;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/particle/MixinWorldRenderer": {
+        "renderWeather": "Lnet/minecraft/class_761;method_22714(Lnet/minecraft/class_765;FDDD)V",
+        "tickRainSplashing": "Lnet/minecraft/class_761;method_22713(Lnet/minecraft/class_4184;)V"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/entity/MixinItemFrameEntityRenderer": {
+        "Lnet/minecraft/client/render/entity/EntityRenderer;render(Lnet/minecraft/entity/Entity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "render(Lnet/minecraft/entity/decoration/ItemFrameEntity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_915;method_3994(Lnet/minecraft/class_1533;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "hasLabel(Lnet/minecraft/entity/decoration/ItemFrameEntity;)Z": "Lnet/minecraft/class_915;method_23176(Lnet/minecraft/class_1533;)Z"
+      },
+      "me/flashyreese/mods/sodiumextra/mixin/render/block/entity/MixinBeaconBlockEntityRenderer": {
+        "render(Lnet/minecraft/block/entity/BeaconBlockEntity;FLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;II)V": "Lnet/minecraft/class_822;method_3541(Lnet/minecraft/class_2580;FLnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+      }
+    }
+  }
+}
